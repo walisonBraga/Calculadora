@@ -1,0 +1,30 @@
+.container-fluid {
+    min-height: 100vh;
+    /* Altura mínima da tela */
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+canvas{
+    margin-left: 40px;
+}
+
+.output {
+    font-weight: bold;
+}
+
+#payment {
+    text-decoration: solid black 1px;
+}
+
+#graph {
+    border: solid black 1px;
+}
+
+th,
+td {
+    vertical-align: top;
+}
